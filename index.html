@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Manish Yadav | Cloud Data Engineer</title>
-  <meta name="description" content="Manish Yadav — Cloud Data Engineering | Batch & Streaming Systems | AI Agents" />
+  <title>Manish Yadav | Senior Data Engineer</title>
+  <meta name="description" content="Manish Yadav — Senior Data Engineer | Cloud Data Engineering | Batch & Streaming Systems | AI Agents" />
+
   <style>
     :root{
       --bg:#0b0f17;
@@ -16,7 +17,7 @@
       --border:rgba(255,255,255,.10);
       --shadow:0 18px 50px rgba(0,0,0,.45);
       --radius:18px;
-      --max:1020px;
+      --max:1100px;
     }
     *{box-sizing:border-box}
     body{
@@ -30,10 +31,10 @@
       line-height:1.55;
     }
     a{color:inherit;text-decoration:none}
-    .wrap{max-width:var(--max);margin:0 auto;padding:28px 18px 56px}
+    .wrap{max-width:var(--max);margin:0 auto;padding:28px 18px 64px}
     header{
-      padding:34px 0 16px;
-      display:flex;align-items:flex-start;justify-content:space-between;gap:18px;
+      padding:32px 0 10px;
+      display:flex;align-items:flex-start;justify-content:space-between;gap:18px;flex-wrap:wrap;
     }
     .tag{
       display:inline-flex;gap:10px;align-items:center;
@@ -41,24 +42,26 @@
       border-radius:999px;background:rgba(255,255,255,.03);
       color:var(--muted);font-size:13px;
     }
-    .name{font-size:40px;letter-spacing:.2px;margin:12px 0 8px}
-    .headline{font-size:16px;color:var(--muted);margin:0 0 18px}
-    .ctaRow{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+    .name{font-size:42px;letter-spacing:.2px;margin:14px 0 8px}
+    .headline{font-size:16px;color:var(--muted);margin:0 0 16px;max-width:820px}
+    .ctaRow{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
     .btn{
       display:inline-flex;align-items:center;gap:10px;
       padding:10px 14px;border-radius:12px;
       border:1px solid var(--border);
       background:rgba(255,255,255,.03);
       transition:.15s transform, .15s background;
-      font-weight:600;font-size:14px;
+      font-weight:700;font-size:14px;
     }
     .btn:hover{transform:translateY(-1px);background:rgba(255,255,255,.06)}
     .btnPrimary{
       border-color:rgba(124,196,255,.35);
       background:linear-gradient(135deg, rgba(124,196,255,.18), rgba(182,255,154,.10));
     }
-    .grid{display:grid;grid-template-columns:1.15fr .85fr;gap:16px;margin-top:18px}
-    @media (max-width: 900px){.grid{grid-template-columns:1fr}}
+
+    .grid{display:grid;grid-template-columns:1.2fr .8fr;gap:16px;margin-top:18px}
+    @media (max-width: 920px){.grid{grid-template-columns:1fr}}
+
     .card{
       background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
       border:1px solid var(--border);
@@ -67,7 +70,10 @@
       padding:18px;
     }
     h2{font-size:16px;margin:0 0 12px;color:var(--text)}
+    h3{font-size:14px;margin:0;color:var(--text)}
     .p{color:var(--muted);margin:0}
+    .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;}
+
     .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
     .chip{
       font-size:12px;color:var(--muted);
@@ -75,7 +81,7 @@
       padding:6px 10px;border-radius:999px;
       background:rgba(255,255,255,.02);
     }
-    .section{margin-top:16px}
+
     .proj{display:flex;flex-direction:column;gap:10px}
     .projItem{
       border:1px solid var(--border);
@@ -84,123 +90,246 @@
       background:rgba(17,26,42,.55);
     }
     .projTop{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-    .projTitle{font-weight:800}
+    .projTitle{font-weight:900}
     .projMeta{color:var(--muted);font-size:12px}
     ul{margin:10px 0 0 18px;color:var(--muted)}
     li{margin:6px 0}
+
     .twoCol{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-    @media (max-width: 700px){.twoCol{grid-template-columns:1fr}}
-    footer{margin-top:24px;color:var(--muted);font-size:12px;text-align:center}
-    .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;}
+    @media (max-width: 720px){.twoCol{grid-template-columns:1fr}}
+    .kpiGrid{display:grid;grid-template-columns:repeat(3, 1fr);gap:10px;margin-top:10px}
+    @media (max-width: 900px){.kpiGrid{grid-template-columns:1fr}}
+    .kpi{
+      border:1px solid var(--border);
+      border-radius:14px;
+      padding:12px;
+      background:rgba(255,255,255,.02);
+    }
+    .kpi .big{font-weight:900;font-size:18px}
+    .kpi .small{color:var(--muted);font-size:12px;margin-top:4px}
+
+    footer{margin-top:22px;color:var(--muted);font-size:12px;text-align:center}
   </style>
 </head>
+
 <body>
   <div class="wrap">
     <header>
       <div>
-        <div class="tag">Cloud Data Engineering • Batch & Streaming • AI Agents</div>
+        <div class="tag">Cloud Data Engineering • Batch & Streaming Systems • AI Agents</div>
+
         <h1 class="name">Manish Yadav</h1>
+
         <p class="headline">
-          Senior Data Engineer building scalable, reliable data platforms across AWS / GCP / Azure.
-          Strong focus on dbt + Airflow orchestration, Spark/Databricks compute, and event-driven pipelines.
+          Senior Data Engineer with 6+ years building production-grade batch and streaming data platforms on AWS and GCP.
+          Strong in dbt-driven dimensional modeling, medallion/lakehouse patterns, Airflow orchestration, and enterprise governance
+          (data quality, lineage, IAM, RLS/CLS, DLP). Focused on reliability, cost optimization, and trusted single-source-of-truth datasets.
         </p>
 
         <div class="ctaRow">
-          <a class="btn btnPrimary" href="mailto:yadav.manishh19@gmail.com">Email: yadav.manishh19@gmail.com</a>
+          <a class="btn btnPrimary" href="mailto:yadav.manishh19@gmail.com">yadav.manishh19@gmail.com</a>
           <a class="btn" href="https://www.linkedin.com/in/manishyadav19/" target="_blank" rel="noreferrer">LinkedIn</a>
           <a class="btn" href="https://github.com/manish-yadav19" target="_blank" rel="noreferrer">GitHub</a>
         </div>
 
-        <div class="chips">
-          <span class="chip">AWS</span><span class="chip">GCP</span><span class="chip">Azure</span>
-          <span class="chip">Databricks</span><span class="chip">Spark</span><span class="chip">Kafka</span>
-          <span class="chip">Airflow</span><span class="chip">dbt</span><span class="chip">BigQuery</span>
-          <span class="chip">Snowflake</span><span class="chip">Python</span><span class="chip">SQL</span>
-        </div>
-      </div>
-
-      <div class="card" style="min-width:280px;max-width:340px;">
-        <h2>What I do</h2>
-        <p class="p">
-          I design and operationalize data systems that are production-grade: observable, cost-aware,
-          governed, and resilient to schema changes and late-arriving data.
-        </p>
-        <div class="section">
-          <h2>Focus areas</h2>
-          <div class="twoCol">
-            <div class="chip">Batch ELT/ETL</div>
-            <div class="chip">Streaming + CDC</div>
-            <div class="chip">Data modeling (dbt)</div>
-            <div class="chip">Orchestration (Airflow)</div>
-            <div class="chip">Governance & Quality</div>
-            <div class="chip">AI workflow automation</div>
-          </div>
+        <div class="chips" aria-label="Core stack">
+          <span class="chip">AWS</span><span class="chip">GCP</span><span class="chip">BigQuery</span><span class="chip">Redshift</span>
+          <span class="chip">Databricks</span><span class="chip">Spark</span><span class="chip">Kafka</span><span class="chip">Pub/Sub</span>
+          <span class="chip">Dataflow (Beam)</span><span class="chip">Airflow (Composer)</span><span class="chip">dbt (Core/Cloud)</span>
+          <span class="chip">Python</span><span class="chip">SQL</span><span class="chip">Terraform</span>
+          <span class="chip">RLS/CLS</span><span class="chip">DLP</span><span class="chip">Atlan Lineage</span>
         </div>
       </div>
     </header>
 
     <div class="grid">
-      <section class="card">
-        <h2>Featured Projects</h2>
+      <!-- LEFT COLUMN -->
+      <main class="card">
+        <h2>Impact Snapshot</h2>
+        <div class="kpiGrid">
+          <div class="kpi">
+            <div class="big">83%</div>
+            <div class="small">dbt runtime reduction (2h → 20m) via partitioning + clustering + optimized MERGE/SCD2</div>
+          </div>
+          <div class="kpi">
+            <div class="big">2TB+</div>
+            <div class="small">daily ingestion across Parquet/Avro/JSON into curated tables with schema evolution controls</div>
+          </div>
+          <div class="kpi">
+            <div class="big">12+</div>
+            <div class="small">production Airflow DAGs owned (SLOs, alert tuning, replay/backfill governance)</div>
+          </div>
+        </div>
+
+        <div style="height:12px"></div>
+
+        <h2>Featured Work</h2>
         <div class="proj">
           <div class="projItem">
             <div class="projTop">
-              <div class="projTitle">Cloud Data Platform — Batch & Streaming</div>
-              <div class="projMeta mono">AWS • GCP • Airflow • dbt</div>
+              <div class="projTitle">Cloud Data Platform — Batch + Streaming</div>
+              <div class="projMeta mono">GCP • BigQuery • Pub/Sub • Dataflow • dbt • Airflow</div>
             </div>
             <ul>
-              <li>Built idempotent pipelines with strong partitioning/clustering and incremental processing patterns.</li>
-              <li>Added data quality controls (row counts, thresholds, schema drift guardrails) and operational dashboards.</li>
-              <li>Standardized modeling + governance conventions to reduce breaks and speed up delivery.</li>
+              <li>Architected event-driven telemetry pipeline (Pub/Sub → Dataflow (Beam) → BigQuery) to process high-volume event streams in near real time.</li>
+              <li>Implemented event-time processing with watermarking, late-data handling, and DLQ remediation for replay-safe backfills using idempotent keys.</li>
+              <li>Designed medallion architecture on GCS + BigQuery, enforcing schema evolution controls and deduplication across 500+ fields.</li>
             </ul>
           </div>
 
           <div class="projItem">
             <div class="projTop">
-              <div class="projTitle">Databricks/Spark Workloads for Scale</div>
-              <div class="projMeta mono">Databricks • Spark • Lakehouse</div>
+              <div class="projTitle">Warehouse Performance + Governance</div>
+              <div class="projMeta mono">dbt • SCD Type 2 • MERGE • Testing • RLS/CLS</div>
             </div>
             <ul>
-              <li>Optimized large joins and wide transformations using bucketing/partition strategies and efficient file layouts.</li>
-              <li>Designed job-level observability and retry-safe execution for long-running pipelines.</li>
+              <li>Optimized dbt dimensional and incremental MERGE models (including SCD Type 2) with freshness/anomaly tests.</li>
+              <li>Reduced operational escalations by improving reliability patterns: standardized retries, runbooks, and governed backfills/replay.</li>
+              <li>Deployed privacy controls in BigQuery using row-level security, column masking, and authorized views to enforce least-privilege access.</li>
             </ul>
           </div>
 
           <div class="projItem">
             <div class="projTop">
-              <div class="projTitle">AI Agent Automation (Ops + Data Workflows)</div>
-              <div class="projMeta mono">Agentic workflows • Automation</div>
+              <div class="projTitle">Modernization + Automation</div>
+              <div class="projMeta mono">GitLab CI/CD • Terraform • Docker • GKE • APIs</div>
             </div>
             <ul>
-              <li>Created agent-driven workflows to reduce manual operational effort and improve response consistency.</li>
-              <li>Focused on safe automation patterns: approvals, audit trails, and deterministic outputs.</li>
+              <li>Integrated GitLab CI/CD validation for dbt and pipeline code with automated tests and deployment gates, reducing production regressions.</li>
+              <li>Provisioned analytics infrastructure and IAM controls via Terraform across multi-environment deployments.</li>
+              <li>Migrated PostgreSQL sources to BigQuery via containerized pipelines; used CDC-driven incremental loads for priority sources and scaled execution on GKE.</li>
+            </ul>
+          </div>
+
+          <div class="projItem">
+            <div class="projTop">
+              <div class="projTitle">AI Agents (Workflow Automation)</div>
+              <div class="projMeta mono">Agentic workflows • Guardrails • Auditability</div>
+            </div>
+            <ul>
+              <li>Built agent-assisted workflows to reduce manual ops effort while keeping outputs deterministic and reviewable.</li>
+              <li>Focused on safe automation patterns: approvals, audit trails, and measurable reliability improvements.</li>
             </ul>
           </div>
         </div>
-      </section>
 
+        <div style="height:14px"></div>
+
+        <h2>Professional Experience</h2>
+
+        <div class="proj">
+          <div class="projItem">
+            <div class="projTop">
+              <div class="projTitle">Senior Data Engineer — Optimum</div>
+              <div class="projMeta">May 2023 – Present | New York, NY</div>
+            </div>
+            <ul>
+              <li>Optimized dbt dimensional + incremental MERGE models (SCD Type 2) cutting runtime by 83% via partitioning and clustering.</li>
+              <li>Owned 12+ Airflow (Cloud Composer) DAGs; defined data freshness + success-rate SLOs and tuned alerting to reduce ops load.</li>
+              <li>Designed medallion architecture and automated ingestion of 2TB+ daily data; implemented schema evolution controls and large-scale deduplication.</li>
+              <li>Implemented event-time watermarking, late-event handling, and DLQ remediation enabling replay-safe backfills and reducing escalations.</li>
+              <li>Applied BigQuery RLS/CLS masking and authorized views for PII enforcement and least-privilege access.</li>
+              <li>Provisioned datasets, storage, service accounts, and IAM via Terraform; reduced environment setup time and configuration drift.</li>
+              <li>Mentored 5-member offshore team: sprint execution, code reviews, dbt modularization, and CI/CD discipline.</li>
+            </ul>
+          </div>
+
+          <div class="projItem">
+            <div class="projTop">
+              <div class="projTitle">Senior Analytics Engineer — Optimum</div>
+              <div class="projMeta">Jan 2022 – May 2023 | New York, NY</div>
+            </div>
+            <ul>
+              <li>Engineered Zendesk REST ingestion pipeline in Composer for Adobe Customer Journey Analytics (1,600 tickets/day) with SLA checks.</li>
+              <li>Built anomaly detection for 50+ KPIs using baseline thresholding, reducing manual validation by 95%.</li>
+              <li>Spearheaded $1.6M migration from Alteryx to dbt Cloud (250+ workflows) using a Python XML-to-SQL converter.</li>
+              <li>Automated Tableau Server → Tableau Cloud migration (TDE-to-Hyper + bulk publishing), saving 400+ hours.</li>
+            </ul>
+          </div>
+
+          <div class="projItem">
+            <div class="projTop">
+              <div class="projTitle">Data Engineer — TATA Consultancy Services</div>
+              <div class="projMeta">Sep 2020 – Dec 2021 | New York, NY</div>
+            </div>
+            <ul>
+              <li>Secured ingestion of 8+ acquisition feeds into KMS-encrypted S3 via AWS Transfer Family; standardized 25+ formats and preserved lineage.</li>
+              <li>Transformed and deduplicated 1M+ records/week in AWS Glue (Spark); published curated tables in Redshift for outreach tooling.</li>
+              <li>Orchestrated partner activation workflows using Lambda + Step Functions, reducing handoff time from hours to under 30 minutes.</li>
+              <li>Ingested 2M+ response events/week powering QuickSight dashboards used by 20+ stakeholders.</li>
+            </ul>
+          </div>
+
+          <div class="projItem">
+            <div class="projTop">
+              <div class="projTitle">Data Engineer — Retensa</div>
+              <div class="projMeta">May 2019 – May 2020 | New York, NY</div>
+            </div>
+            <ul>
+              <li>Built survey analytics pipelines using SSIS + AWS (S3, Lambda, Redshift) for 25 enterprise clients (125K+ employees).</li>
+              <li>Developed a Lambda-based alerting workflow to flag abusive customer messages and trigger notifications within 5 minutes.</li>
+            </ul>
+          </div>
+        </div>
+      </main>
+
+      <!-- RIGHT COLUMN -->
       <aside class="card">
+        <h2>What I specialize in</h2>
+        <div class="twoCol">
+          <div class="chip">Batch ELT/ETL</div>
+          <div class="chip">Streaming + CDC</div>
+          <div class="chip">dbt semantic marts</div>
+          <div class="chip">SCD Type 2</div>
+          <div class="chip">Airflow orchestration</div>
+          <div class="chip">Event-time watermarking</div>
+          <div class="chip">Late data + DLQ</div>
+          <div class="chip">Backfills/replay</div>
+          <div class="chip">Partitioning/clustering</div>
+          <div class="chip">CI/CD quality gates</div>
+          <div class="chip">RLS/CLS + IAM</div>
+          <div class="chip">DLP + governance</div>
+        </div>
+
+        <div style="height:14px"></div>
+
         <h2>Architecture Principles</h2>
         <ul>
-          <li><b>Reliability-first:</b> idempotency, retries, backfills, and late data handling.</li>
-          <li><b>Cost-aware:</b> right-sizing compute, reducing scan cost, incremental builds.</li>
-          <li><b>Governed:</b> naming conventions, CI checks, tests, and documentation.</li>
-          <li><b>Observable:</b> metrics, alerting, lineage, and runbook-driven ops.</li>
+          <li><b>Reliability-first:</b> idempotency, retries, replay/backfills, late-data handling.</li>
+          <li><b>Governed:</b> contracts, dbt tests, lineage, and access controls.</li>
+          <li><b>Cost-aware:</b> reduce scan cost, incremental builds, partitioning/clustering.</li>
+          <li><b>Observable:</b> SLOs, alerting, runbooks, and operational dashboards.</li>
         </ul>
 
-        <div class="section">
-          <h2>Contact</h2>
-          <p class="p">
-            Email: <a class="mono" href="mailto:yadav.manishh19@gmail.com">yadav.manishh19@gmail.com</a><br/>
-            LinkedIn: <a class="mono" href="https://www.linkedin.com/in/manishyadav19/" target="_blank" rel="noreferrer">linkedin.com/in/manishyadav19</a><br/>
-            GitHub: <a class="mono" href="https://github.com/manish-yadav19" target="_blank" rel="noreferrer">github.com/manish-yadav19</a>
-          </p>
-        </div>
+        <div style="height:14px"></div>
+
+        <h2>Certifications</h2>
+        <ul>
+          <li>GCP Professional Data Engineer</li>
+          <li>AWS Certified Solutions Architect – Associate</li>
+        </ul>
+
+        <div style="height:14px"></div>
+
+        <h2>Education</h2>
+        <p class="p">
+          <b>Stevens Institute of Technology</b><br/>
+          M.S. Information Systems (GPA 3.83/4.00)
+        </p>
+
+        <div style="height:14px"></div>
+
+        <h2>Contact</h2>
+        <p class="p">
+          Email: <a class="mono" href="mailto:yadav.manishh19@gmail.com">yadav.manishh19@gmail.com</a><br/>
+          LinkedIn: <a class="mono" href="https://www.linkedin.com/in/manishyadav19/" target="_blank" rel="noreferrer">linkedin.com/in/manishyadav19</a><br/>
+          GitHub: <a class="mono" href="https://github.com/manish-yadav19" target="_blank" rel="noreferrer">github.com/manish-yadav19</a>
+        </p>
       </aside>
     </div>
 
     <footer>
-      © <span id="y"></span> Manish Yadav • Built with plain HTML/CSS • Fast, clean, recruiter-friendly
+      © <span id="y"></span> Manish Yadav • Built for recruiters: clean, fast, and impact-focused
     </footer>
   </div>
 
